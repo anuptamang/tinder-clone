@@ -1,0 +1,39 @@
+.swipeButtons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 10;
+
+  &__button {
+    background: #fff !important;
+    box-shadow: 0 10px 53px 0 rgba(0, 0, 0, 0.3) !important;
+
+    &:hover {
+      background: whitesmoke !important;
+    }
+
+    &--replay {
+      color: #f5b748 !important;
+    }
+
+    &--close {
+      color: #ec5e6f !important;
+    }
+
+    &--star {
+      color: #62b4f9 !important;
+    }
+
+    &--favorite {
+      color: #76e2b3 !important;
+    }
+
+    &--flash {
+      color: #915dd1 !important;
+    }
+  }
+}
