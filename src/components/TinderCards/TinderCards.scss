@@ -5,16 +5,16 @@
   justify-content: center;
 
   &__cardContainer {
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
     position: relative;
     z-index: 20;
   }
 }
 
 .card {
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
